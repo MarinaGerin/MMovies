@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 * {
     margin: 0; 
     padding: 0;
@@ -16,16 +18,16 @@
  }
  
  .navbar .navbar-brand {
-     color: #e50914;
+     color: #09b5e5;
      font-weight: bold;
  }
  
  .navbar .nav-item .nav-link {
-     color: #e50914;
+     font-family: 'bungee spice';
  }
  
  .scrolled {
-     background-color: #000000;
+     background-color: #000000af;
  }
  
  .carousel-inner {
@@ -47,9 +49,10 @@
  }
  
  .carousel-caption h3 {
-     color: #e50914;
+     color: #e58909;
      font-weight: bolder;
      font-size: 32px;
+     font-family:  'bungee spice';
 
  }
  @media only screen and (max-width: 500px) {
@@ -88,4 +91,17 @@
 
  .rowposter::-webkit-scrollbar {
     display: none;
+ }
+
+ #detalhes h1 {
+    color: #e58909;
+    font-family: 'bungee spice';
+ }
+
+ .navbar-brand {
+    font-family: 'bungee spice';
+ }
+
+ h4 {
+    font-family: 'bungee spice';
  }
