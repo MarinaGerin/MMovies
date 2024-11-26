@@ -59,10 +59,10 @@ containerTrendingMovies.addEventListener("mousemove", (e) => {
 
     if (mouseX < boundingRect.left + threshold) {
         scrollDirectionTrendingMovies = -1; // Scroll para a esquerda
-        containerTrendingMovies.style.cursor = "url('/img/arrow-left.png'), auto"; // Cursor para a esquerda
+        containerTrendingMovies.style.cursor = "url('/img/esquerdo.png'), auto"; // Cursor para a esquerda
     } else if (mouseX > boundingRect.right - threshold) {
         scrollDirectionTrendingMovies = 1; // Scroll para a direita
-        containerTrendingMovies.style.cursor = "url('/img/arrow-right.png'), auto"; // Cursor para a direita
+        containerTrendingMovies.style.cursor = "url('/img/direito.png'), auto"; // Cursor para a direita
     } else {
         scrollDirectionTrendingMovies = 0; // Parar scroll
         containerTrendingMovies.style.cursor = "pointer"; // Cursor padrão
