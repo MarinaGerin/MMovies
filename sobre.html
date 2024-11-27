@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="site.css">
 </head>
 <link rel="shortcut icon" href="img/MMovies.png" type="image/x-icon">
+
 <body>
     <!-- Começa aqui a NavBar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -46,34 +47,127 @@
         <!-- Área com os detalhes dos filmes -->
         <div class="row">
             <div class="col-md-4">
-                <img src="img/Marina Gerin!.png" class="w-100 poster rounded-3">
+                <img src="img/Marina Gerin! (1).png" class="w-100 poster rounded-3">
             </div>
-            <div class="col-md-8 text-white" >
+            <div class="col-md-8 text-white">
                 <h1>Marina Gerin!</h1>
-                <h5>Título Original: Marina Gerin! Descobrindo sua jornada</h5>
-                    <p><b>Data de Estreia:</b> 26/11/2024 </p>
-                    <p><b>País de Origem:</b> Brasil </p>
-                    <p><b>Status:</b> Lançado </p>
-                    <p><b>Classificação:</b> Livre</p>
-                    <p>O filme conta as experiências vivenciadas por Marina Gerin, uma garota de 18 anos, que deseja se formar no Ensino Médio e futuramente fazer biologia.
-                    O filme se passa no ambiente do Barracred Conecta, onde Marina nos explica e compartilha os projetos que passa a tarde fazendo no HTML e na linguagem de programação Javascript.
-                    Com muitos desafios e conquistas </p>
-            
-                
+                <h5 class="mb-4">Título Original: Marina Gerin! Descobrindo sua jornada</h5>
+                <p class="mb-1"><b>Data de Estreia:</b> 26/11/2024 </p>
+                <p class="mb-1"><b>País de Origem:</b> Brasil </p>
+                <p class="mb-1"><b>Status:</b> Lançado </p>
+                <p class="mb-1"><b>Classificação:</b> Livre</p>
+                <p>O filme conta as experiências vivenciadas por Marina Gerin, uma garota de 18 anos, que deseja se
+                    formar no Ensino Médio e futuramente fazer biologia.
+                    O filme se passa durante o período de estudos no Barracred Conecta, onde Marina nos explica e
+                    compartilha os projetos que passa a tarde fazendo em HTML, CSS e Javascript.
+                    Com muitos desafios e conquistas ela passa a se questionar sobre seu futuro na biologia e na
+                    programação. </p>
+
+                <button class='btn btn-lg btn-outline-warning me-2'>Drama</button>
+                <button class='btn btn-lg btn-outline-warning me-2'>Documentário</button>
+
             </div>
         </div>
 
-
         <!--Área do trailer -->
-        <div class="row my-5 text-white" id="trailer">
+        <div class="row my-5  text-white" id="trailer">
             <h3 class="my-3">Trailer Oficial</h3>
-            <iframe src="" frameborder="0" width="100%" height="500"></iframe>
+            <video src="video/trailer.mp4" controls width="500" ></video>
         </div>
 
         <!-- Àrea do Elenco -->
-        <div class="row my-5 text-white" >
+        <div class="row my-5 text-white">
             <h3 class="my-3">Elenco </h3>
             <div class="row" id="elenco"></div>
+            <div class='col-lg-4 col-sm-6'>
+                <div class='row'>
+                    <div class='col-lg-3 mb-3'>
+                        <img class="w-100 rounded-3" height="98px" src="img/marina.jpeg">
+                    </div>
+                    <div class='col-lg-9 mb-3'>
+                        <h4>Marina Gerin</h4>
+                        <p>Personagem Principal</p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-4 col-sm-6'>
+                <div class='row'>
+                    <div class='col-lg-3 mb-3'>
+                        <img class="w-100 rounded-3" height="98px" src="img/mae.jpeg">
+                    </div>
+                    <div class='col-lg-9 mb-3'>
+                        <h4>Alessandra G. Souza</h4>
+                        <p>Personagem Principal</p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-4 col-sm-6'>
+                <div class='row'>
+                    <div class='col-lg-3 mb-3'>
+                        <img class="w-100 rounded-3" height="98px" src="img/nicolas.jpeg">
+                    </div>
+                    <div class='col-lg-9 mb-3'>
+                        <h4>Nicolas Andrade</h4>
+                        <p>Personagem Principal</p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-4 col-sm-6'>
+                <div class='row'>
+                    <div class='col-lg-3 mb-3'>
+                        <img class="w-100 rounded-3" height="98px" src="img/gallo.jpg">
+                    </div>
+                    <div class='col-lg-9 mb-3'>
+                        <h4>José Antonio Gallo Junior</h4>
+                        <p>Personagem Principal</p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-4 col-sm-6'>
+                <div class='row'>
+                    <div class='col-lg-3 mb-3'>
+                        <img class="w-100 rounded-3" height="98px" src="img/adilson.jpeg">
+                    </div>
+                    <div class='col-lg-9 mb-3'>
+                        <h4>Adilson Nascimento</h4>
+                        <p>Personagem Secundário</p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-4 col-sm-6'>
+                <div class='row'>
+                    <div class='col-lg-3 mb-3'>
+                        <img class="w-100 rounded-3" height="98px" src="img/gi.jpeg">
+                    </div>
+                    <div class='col-lg-9 mb-3'>
+                        <h4>Giovanna Grigolato</h4>
+                        <p>Personagem Secundário</p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-4 col-sm-6'>
+                <div class='row'>
+                    <div class='col-lg-3 mb-3'>
+                        <img class="w-100 rounded-3" height="98px" src="img/no-photo-cast.png">
+                    </div>
+                    <div class='col-lg-9 mb-3'>
+                        <h4>Andresa Baratela</h4>
+                        <p>Personagem Secundário</p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-4 col-sm-6'>
+                <div class='row'>
+                    <div class='col-lg-3 mb-3'>
+                        <img class="w-100 rounded-3" height="98px" src="img/meli (2).jpeg">
+                    </div>
+                    <div class='col-lg-9 mb-3'>
+                        <h4>Melissa Andrade</h4>
+                        <p>Personagem Secundário</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
