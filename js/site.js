@@ -16,3 +16,20 @@ const options = {
     }
 };
 
+//formatação de Datas 
+function formatarData(data) {
+    var d = new Date(data),
+        mes = '' + (d.getMonth()+ 1),
+        dia = '' + d.getDate(),
+        ano = d.getFullYear();
+
+    mes = mes.length < 2 ? '0' + mes : mes; 
+    dia = dia.length < 2 ? '0' + dia : dia; 
+    return [dia, mes, ano].join('/');
+}
+
+//exibir e esconder loading
+function toggleLoading() {
+    let loader = document.querySelector('.loader');
+    loader.style.display = loader.style.display == 'none' ? 'block' : 'none';
+}
