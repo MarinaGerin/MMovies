@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-body {
-    padding: 0;
-    margin: 0;
-    background-color: #141414ed;
-    background-image: url(img/back.png);
-    background-repeat: no-repeat;
-}
+
+    
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/back.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* 50% de transparência */
+    z-index: -1; /* Enviar o pseudo-elemento para trás do conteúdo */
+  }
 
 #login {
     display: flex;
@@ -21,25 +31,26 @@ body {
     background-color:#e58909;
     padding: 40px;
     border-radius: 10px;
-    width: 280px;
+    width: 350px;
+    height: 400px;
 
 }
 
 .card-header {
-    padding-bottom: 50px;
-    opacity: 0.8;
-    color: #ffffff;
+    padding-left: 0;
+    padding-bottom: 20px;
+    opacity: 1;
+    background-color: #e58909;
+    border-bottom: none;
 }
 
 .card-header::after {
     content: "";
-    width: 285px;
+    width: 180px;
     height: 1px;
-    background-color: #fff;
     display: block;
     margin-top: -17px;
     margin-left: -1px;
-    
 }
 
 .card-content label {
@@ -65,16 +76,20 @@ body {
 }
 
 .card-footer {
+    padding: 0;
     display: flex;
     flex-direction: column;
+    background-color: #e58909;
+    border-top: none;
 }
 
 .card-footer .submit {
     width: 100%;
     height: 40px;
     background-color: #e66603;
+    border-color: #e66603;
     border-radius: 10px;
-    color: #e1e1e1;
+    color: white;
     margin: 10px 0;
 }
 

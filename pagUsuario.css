@@ -1,0 +1,127 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.main-content {
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+
+.logo_nav {
+    height: 65px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 10%, rgba(15, 15, 15, 0.1));
+    background-repeat: no-repeat;
+}
+
+.logo_nav img {
+    width: 92px;
+    margin: 22px 0px 0px 54px;
+    z-index: 1;
+}
+
+.text h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 45px;
+}
+
+.select_users {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.users-img img {
+    width: 135px;
+    border-radius: 5px;
+}
+
+.users-text p {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: gray;
+}    
+
+.user-one,
+.user-two,
+.user-three,
+.user-kids {
+    margin: 0px 15px;
+}
+
+
+.add-profile {
+    width: 135px;
+    margin: 0px 15px 30px 15px;
+}
+
+.img-addProfile {
+    width: 135px;
+    height: 135px;
+}
+
+.add-profile p {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 14px;
+    color: gray;
+}
+
+.content-manageProfile {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.manageProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    width: 240px;
+    height: 36px;
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.userIt-hv div img {
+    border: 3px solid black;
+}
+
+.userIt-hv:hover > div > img {
+    border: 3px solid white;
+}
+
+.userIt-hv:hover p {
+    color: lightgray;
+}
+
+.add-profile:hover > .img-addProfile {
+    background-color: lightgray;
+}
+
+.add-profile:hover p {
+    color: lightgray;
+}
+
+.manageProfile:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.add-profile i {
+    font-size: 100px;
+}
